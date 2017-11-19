@@ -1,4 +1,7 @@
-[
+
+
+
+var ArrayOfFriends = [
     {
     name: "Ahmed",
     photo: "https://loremflickr.com/320/240/man",
@@ -256,134 +259,6 @@
     ]
     },
     {
-    name: "hhh",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "2",
-    "3",
-    "1",
-    "3",
-    "3",
-    "4",
-    "5",
-    "2",
-    "5",
-    "2"
-    ]
-    },
-    {
-    name: "x",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1"
-    ]
-    },
-    {
-    name: "x",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1"
-    ]
-    },
-    {
-    name: "x",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1",
-    "1"
-    ]
-    },
-    {
-    name: "xn",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "1",
-    "1",
-    "1",
-    "1",
-    "2",
-    "2",
-    "2",
-    "2",
-    "3",
-    "2"
-    ]
-    },
-    {
-    name: "xn",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "5",
-    "5",
-    "5",
-    "4",
-    "2",
-    "5",
-    "5",
-    "5",
-    "5",
-    "5"
-    ]
-    },
-    {
-    name: "test",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "2",
-    "1",
-    "1",
-    "2",
-    "1",
-    "2",
-    "2",
-    "1",
-    "1",
-    "1"
-    ]
-    },
-    {
-    name: "bogus",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "2",
-    "3",
-    "3",
-    "3",
-    "3",
-    "4",
-    "3",
-    "3",
-    "2",
-    "2"
-    ]
-    },
-    {
     name: "M",
     photo: "https://loremflickr.com/320/240/man",
     scores: [
@@ -396,70 +271,6 @@
     "2",
     "3",
     "3",
-    "3"
-    ]
-    },
-    {
-    name: "M",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "4",
-    "2",
-    "2",
-    "3",
-    "4",
-    "3",
-    "2",
-    "3",
-    "3",
-    "3"
-    ]
-    },
-    {
-    name: "M",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "4",
-    "2",
-    "2",
-    "3",
-    "4",
-    "3",
-    "2",
-    "3",
-    "3",
-    "3"
-    ]
-    },
-    {
-    name: "cool",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "4",
-    "2",
-    "2",
-    "3",
-    "4",
-    "2",
-    "3",
-    "3",
-    "2",
-    "3"
-    ]
-    },
-    {
-    name: "cool",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "4",
-    "2",
-    "2",
-    "3",
-    "4",
-    "2",
-    "3",
-    "3",
-    "2",
     "3"
     ]
     },
@@ -528,22 +339,6 @@
     ]
     },
     {
-    name: "Holly",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "4",
-    "2",
-    "5",
-    "2",
-    "5",
-    "3",
-    "4",
-    "2",
-    "1",
-    "2"
-    ]
-    },
-    {
     name: "Melanie MacDonald",
     photo: "https://loremflickr.com/320/240/man",
     scores: [
@@ -592,22 +387,6 @@
     ]
     },
     {
-    name: "AA",
-    photo: "https://loremflickr.com/320/240/man",
-    scores: [
-    "1",
-    "1",
-    "1",
-    "3",
-    "2",
-    "1",
-    "5",
-    "4",
-    "2",
-    "2"
-    ]
-    },
-    {
     name: "Ryan",
     photo: "https://loremflickr.com/320/240/man",
     scores: [
@@ -623,4 +402,8 @@
     "1"
     ]
     }
-    ]
+    ];
+   
+
+
+module.exports = ArrayOfFriends;
