@@ -1,0 +1,33 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Matching and Dating App",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaswardeh/FriendFinder.git"
+  },
+  "keywords": [
+    "node.js",
+    "friend-finder",
+    "matching",
+    "dating",
+    "back-end",
+    "javascript"
+  ],
+  "author": "Mohammed A Wardeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anaswardeh/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/anaswardeh/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
+}
